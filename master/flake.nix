@@ -11,7 +11,6 @@
   inputs.src-romanim-master.ref   = "refs/heads/master";
   inputs.src-romanim-master.owner = "bichanna";
   inputs.src-romanim-master.repo  = "romanim";
-  inputs.src-romanim-master.dir   = "";
   inputs.src-romanim-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

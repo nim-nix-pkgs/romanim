@@ -11,7 +11,6 @@
   inputs.src-romanim-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-romanim-0_1_0.owner = "bichanna";
   inputs.src-romanim-0_1_0.repo  = "romanim";
-  inputs.src-romanim-0_1_0.dir   = "";
   inputs.src-romanim-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
